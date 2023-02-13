@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['myfunction_0',['myfunction',['../namespaceexample_helper_functions.html#ac92fb56abf7fc581ac1692b019e0be8a',1,'exampleHelperFunctions']]]
+  ['plot_0',['plot',['../classaccuracy_1_1_accuracy_checker.html#a1516e6b784cdc848c6b02f07b4d48ee8',1,'accuracy::AccuracyChecker']]],
+  ['prediction_1',['prediction',['../classtest_1_1automaticmaplabelling.html#a5d750d03c7546c331d3a2197c55c94ec',1,'test::automaticmaplabelling']]],
+  ['printerror_2',['printError',['../namespacemain.html#a7a1459e68183b7a2c5d7387577a8872a',1,'main']]]
 ];

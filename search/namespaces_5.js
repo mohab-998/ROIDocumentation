@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['inference_0',['inference',['../namespaceinference.html',1,'']]]
+  ['labelfrequency_0',['labelFrequency',['../namespacelabel_frequency.html',1,'']]]
 ];

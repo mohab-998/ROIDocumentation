@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['examplehelperfunctions_0',['exampleHelperFunctions',['../namespaceexample_helper_functions.html',1,'']]],
-  ['examplemain_1',['exampleMain',['../namespaceexample_main.html',1,'']]]
+  ['helperclasses_0',['helperClasses',['../namespacehelper_classes.html',1,'']]],
+  ['helperfunctions_1',['helperFunctions',['../namespacehelper_functions.html',1,'']]]
 ];

@@ -1,7 +1,29 @@
 var searchData=
 [
-  ['_5f_5fcall_5f_5f_0',['__call__',['../classhelper_classes_1_1_save_best_model.html#a53a8bdf9ceb4b0217f1fe12b3a89f3fb',1,'helperClasses::SaveBestModel']]],
-  ['_5f_5fgetitem_5f_5f_1',['__getitem__',['../classdataset_1_1_plan_dataset.html#aa80fe5f5f61f64c0553366643708d353',1,'dataset::PlanDataset']]],
-  ['_5f_5finit_5f_5f_2',['__init__',['../classaccuracy_1_1_accuracy_checker.html#a6f669a974cda70a81e481da92dcbd757',1,'accuracy.AccuracyChecker.__init__()'],['../classdataset_1_1_plan_dataset.html#ae7acca4603663e89c2b44b68be8a1502',1,'dataset.PlanDataset.__init__()'],['../classexample_main_1_1_py_class.html#ab9d67af614f7220019b85c2e0e98c02b',1,'exampleMain.PyClass.__init__()'],['../classhelper_classes_1_1_averager.html#a3e86be5642260afb5cd01aa425779451',1,'helperClasses.Averager.__init__()'],['../classhelper_classes_1_1_save_best_model.html#ad436e0b2b66cae3fa8b7ed0e01e5817e',1,'helperClasses.SaveBestModel.__init__()'],['../classinference_1_1_test.html#a484947a08e3a6d8d264b5b8130f63108',1,'inference.Test.__init__()'],['../classmodel_1_1_model.html#a8bbcd5d0dfbcb3c296c70b214491d70b',1,'model.Model.__init__()']]],
-  ['_5f_5flen_5f_5f_3',['__len__',['../classdataset_1_1_plan_dataset.html#adf6d2798912a96ad2db041aed4f49a6c',1,'dataset::PlanDataset']]]
+  ['_5f_5faccuracylooper_0',['__accuracyLooper',['../classaccuracy_1_1_accuracy_checker.html#a68d1a34688034a5fdb17bb956d57583a',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5faverageiou_1',['__averageIoU',['../classaccuracy_1_1_accuracy_checker.html#a0e8d55d9880997f371823c58553f41d2',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5fcall_5f_5f_2',['__call__',['../classhelper_classes_1_1_save_best_model.html#a53a8bdf9ceb4b0217f1fe12b3a89f3fb',1,'helperClasses::SaveBestModel']]],
+  ['_5f_5fclassaverageiou_3',['__classAverageIoU',['../classaccuracy_1_1_accuracy_checker.html#a00e692134b8345d31b1b7b0d0a27a939',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5fcompileunet_4',['__compileUNet',['../classsegmentation_model_1_1_segmentation_model.html#a0dafe4590caa7b2b84817047af495b3d',1,'segmentationModel::SegmentationModel']]],
+  ['_5f_5fcreateunet_5',['__createUNet',['../classsegmentation_model_1_1_segmentation_model.html#a5e9867d798e8109fd0d0b7d8267cbc6c',1,'segmentationModel::SegmentationModel']]],
+  ['_5f_5fdrawlabels_6',['__drawLabels',['../classinference_1_1_test.html#ab467df9c7c22d53e627ffedcdf76eb5b',1,'inference::Test']]],
+  ['_5f_5fgeneratecleanplan_7',['__generateCleanPlan',['../classinference_1_1_test.html#aeb93bb1b119bc1161f7d5e88780971b0',1,'inference::Test']]],
+  ['_5f_5fgetarea_8',['__getArea',['../classaccuracy_1_1_accuracy_checker.html#ac673042a231d54c87abbfe3943eb3ceb',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5fgetids_9',['__getIDs',['../classsegmentation_model_1_1_segmentation_model.html#af3e00d597ac65fb8af949955839cc527',1,'segmentationModel::SegmentationModel']]],
+  ['_5f_5fgetintersectingboxes_10',['__getIntersectingBoxes',['../classaccuracy_1_1_accuracy_checker.html#a86220250529023bf994adcccf06a7973',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5fgetintersection_11',['__getIntersection',['../classaccuracy_1_1_accuracy_checker.html#a6c640e19b025c50ba440be10cf302ed4',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5fgetiou_12',['__getIoU',['../classaccuracy_1_1_accuracy_checker.html#a65cc2f63e579578c1af6b62d5eefed8f',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5fgetitem_5f_5f_13',['__getitem__',['../classdataset_1_1_plan_dataset.html#aa80fe5f5f61f64c0553366643708d353',1,'dataset::PlanDataset']]],
+  ['_5f_5fgetlabels_14',['__getLabels',['../classaccuracy_1_1_accuracy_checker.html#a83f8bf74c8c97128b60dd27e2c9a9851',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5fgetsingulardict_15',['__getSingularDict',['../classaccuracy_1_1_accuracy_checker.html#aba0e744649dc13ce0b39ab93e52444bd',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5fgettestingdata_16',['__getTestingData',['../classinference_1_1_test.html#a211aca099b113202141d5b064dee9ba7',1,'inference::Test']]],
+  ['_5f_5fgettrainingimages_17',['__getTrainingImages',['../classsegmentation_model_1_1_segmentation_model.html#aeb6f17494a34e7d72da1bbbc0a53174a',1,'segmentationModel::SegmentationModel']]],
+  ['_5f_5fgetunion_18',['__getUnion',['../classaccuracy_1_1_accuracy_checker.html#aa5e5896176ede67e4fc9a79724f9f963',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5fimportxml_19',['__importXML',['../classaccuracy_1_1_accuracy_checker.html#aa38b1ce8b2ff4bee4bc5691398f25503',1,'accuracy::AccuracyChecker']]],
+  ['_5f_5finit_5f_5f_20',['__init__',['../classaccuracy_1_1_accuracy_checker.html#a6f669a974cda70a81e481da92dcbd757',1,'accuracy.AccuracyChecker.__init__()'],['../classdataset_1_1_plan_dataset.html#ae7acca4603663e89c2b44b68be8a1502',1,'dataset.PlanDataset.__init__()'],['../classhelper_classes_1_1_averager.html#a3e86be5642260afb5cd01aa425779451',1,'helperClasses.Averager.__init__()'],['../classhelper_classes_1_1_save_best_model.html#ad436e0b2b66cae3fa8b7ed0e01e5817e',1,'helperClasses.SaveBestModel.__init__()'],['../classinference_1_1_test.html#a484947a08e3a6d8d264b5b8130f63108',1,'inference.Test.__init__()'],['../classmodel_1_1_model.html#a3c8da750cfad8a787521991a2dbda52d',1,'model.Model.__init__()'],['../classsegmentation_model_1_1_segmentation_model.html#a40d662fae78c4cfa5cfcc85b0af4e338',1,'segmentationModel.SegmentationModel.__init__()'],['../classtest_1_1automaticmaplabelling.html#a5520e3ff5d3e11c761aaa572daa1aca9',1,'test.automaticmaplabelling.__init__()']]],
+  ['_5f_5flabelimage_21',['__labelImage',['../classinference_1_1_test.html#a0181d2cec711e785677921f8c5f4b8e0',1,'inference::Test']]],
+  ['_5f_5flen_5f_5f_22',['__len__',['../classdataset_1_1_plan_dataset.html#adf6d2798912a96ad2db041aed4f49a6c',1,'dataset::PlanDataset']]],
+  ['_5f_5ftestmodel_23',['__testModel',['../classinference_1_1_test.html#a481e8e9d6d4edca2832db7223c35647f',1,'inference::Test']]],
+  ['_5f_5ftrainmodel_24',['__trainModel',['../classmodel_1_1_model.html#af7f28c07e28c8cf06482579ce97fcd46',1,'model::Model']]],
+  ['_5f_5fvalidatemodel_25',['__validateModel',['../classmodel_1_1_model.html#aa8c033dbb913e3d245e2e19c3b114f6a',1,'model::Model']]]
 ];

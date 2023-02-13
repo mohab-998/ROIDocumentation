@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['trainmodel_0',['trainModel',['../classmodel_1_1_model.html#a7cae63fdd26c830a93afe68736fc2331',1,'model::Model']]]
+  ['u_5fnet_0',['U_net',['../classtest_1_1automaticmaplabelling.html#ac10decc144ff8246c4014def8d2e72b4',1,'test::automaticmaplabelling']]]
 ];

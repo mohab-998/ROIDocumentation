@@ -81,7 +81,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="classhelper_classes_1_1_save_best_model.html" title="Class SaveBestModel Function object used to save the model with the lowest validation loss.">SaveBestModel</a> Function object used to save the model with the lowest validation loss.  
+<p>Class: <a class="el" href="classhelper_classes_1_1_save_best_model.html" title="Class: SaveBestModel.">SaveBestModel</a>.  
  <a href="classhelper_classes_1_1_save_best_model.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -90,7 +90,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad436e0b2b66cae3fa8b7ed0e01e5817e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the state of the function object.  <a href="classhelper_classes_1_1_save_best_model.html#ad436e0b2b66cae3fa8b7ed0e01e5817e">More...</a><br /></td></tr>
 <tr class="separator:ad436e0b2b66cae3fa8b7ed0e01e5817e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a8bdf9ceb4b0217f1fe12b3a89f3fb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhelper_classes_1_1_save_best_model.html#a53a8bdf9ceb4b0217f1fe12b3a89f3fb">__call__</a> (self, currentValidationLoss, epoch, model, optimizer)</td></tr>
-<tr class="memdesc:a53a8bdf9ceb4b0217f1fe12b3a89f3fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to saveModel.  <a href="classhelper_classes_1_1_save_best_model.html#a53a8bdf9ceb4b0217f1fe12b3a89f3fb">More...</a><br /></td></tr>
+<tr class="memdesc:a53a8bdf9ceb4b0217f1fe12b3a89f3fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves model and updates the lowest validation loss if the current validation loss is lower than the lowest validation loss.  <a href="classhelper_classes_1_1_save_best_model.html#a53a8bdf9ceb4b0217f1fe12b3a89f3fb">More...</a><br /></td></tr>
 <tr class="separator:a53a8bdf9ceb4b0217f1fe12b3a89f3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -99,13 +99,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae0b65702fdc8348ec5598b755513b69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Class <a class="el" href="classhelper_classes_1_1_save_best_model.html" title="Class SaveBestModel Function object used to save the model with the lowest validation loss.">SaveBestModel</a> Function object used to save the model with the lowest validation loss. </p>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">TBD.</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p >Class: <a class="el" href="classhelper_classes_1_1_save_best_model.html" title="Class: SaveBestModel.">SaveBestModel</a>. </p>
+<p >Function object used to save the model with the lowest validation loss. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad436e0b2b66cae3fa8b7ed0e01e5817e" name="ad436e0b2b66cae3fa8b7ed0e01e5817e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad436e0b2b66cae3fa8b7ed0e01e5817e">&#9670;&#160;</a></span>__init__()</h2>
@@ -136,7 +131,7 @@ Public Attributes</h2></td></tr>
 <p>Initializes the state of the function object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">bestValidationLoss</td><td>Optional lowest validation loss. If argument is not given the parameter is initialized with the upper bound value of a floating point variable. </td></tr>
+    <tr><td class="paramname">bestValidationLoss:float</td><td>Optional lowest validation loss. If argument is not given the parameter is initialized with the upper bound value of a floating point variable. </td></tr>
   </table>
   </dd>
 </dl>
@@ -188,14 +183,14 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Similar to saveModel. </p>
-<p >Saves model and updates the lowest validation loss if the current validation loss is lower than the lowest validation loss. In this case bestValidationLossHistory.txt is updated.</p>
+<p>Saves model and updates the lowest validation loss if the current validation loss is lower than the lowest validation loss. </p>
+<p >In this case bestValidationLossHistory.txt is updated. </p><dl class="section note"><dt>Note</dt><dd>Similar to saveModel. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">currentValidationLoss</td><td>Validation loss for the current epoch. </td></tr>
-    <tr><td class="paramname">epoch</td><td>Current epoch (iteration of training). </td></tr>
-    <tr><td class="paramname">model</td><td>Trained model object. </td></tr>
-    <tr><td class="paramname">optimizer</td><td>Optimizer object.</td></tr>
+    <tr><td class="paramname">currentValidationLoss:float</td><td>Validation loss for the current epoch. </td></tr>
+    <tr><td class="paramname">epoch:int</td><td>Current epoch (iteration of training). </td></tr>
+    <tr><td class="paramname">model:Model</td><td>Trained model object. </td></tr>
+    <tr><td class="paramname">optimizer:Optimizer</td><td>Optimizer object. </td></tr>
   </table>
   </dd>
 </dl>
